@@ -17,11 +17,130 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Roboto Condensed", sans-serif;
+  color: #f0e6ef;
+  background-color: #1f1f1f;
+  letter-spacing: 0.5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  background-color: #3f0071;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  padding: 8px;
+  border-right: 12px #ffd700 double;
+  border-left: 13px #ffd700 double;
+  letter-spacing: 0.5px;
+}
+
+h4 {
+  background-color: #3f0071;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  padding: 8px;
+  border-right: 12px #ffd700 double;
+  border-left: 12px #ffd700 double;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-family: "Orbitron", sans-serif;
+  color: #ffd700;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 10px #3f0071;
+  padding: 5px;
+}
+
+p {
+  color: #f0e6ef;
+  text-align: justify;
+  line-height: 16px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 2px #1f1f1f;
+}
+.button {
+  background-color: #3f0071;
+  color: #ffd700;
+  padding: 5px 5px;
+  border: 5px double #ffd700;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px 625px;
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+}
+.navbar {
+  background-color: #2a2d34;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  padding: 0 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #32e0c4;
+}
+.list {
+  list-style-type: upper-roman;
+}
+
+.container {
+  margin: auto;
+  width: 500px;
+  overflow: auto;
+  padding: 3rem 2rem;
+}
+#initial-form {
+  padding: 2rem;
+  background-color: #2a2d34;
+  color: #ffffff;
+  margin-left: auto;
+}
+#initial-form label {
+  display: block;
+}
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.button:hover {
+  background: #3f0071;
+  transition: color 0.5s ease;
 }
